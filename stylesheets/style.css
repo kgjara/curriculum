@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
     font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(251, 248, 243);
 }
 
 .titulo {
@@ -15,27 +19,90 @@ h1 {
 h1,
 h2,
 h3 {
-    font-family: Roboto;
-}
-#informacion-personal{
-    background-color:#e3f6f5;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
-section{
+
+section {
     background-color: #e3f6f5;
 }
 
+section .titulo{
+    color:#1a3450;
+    font-weight: bold;
+}
 
-section{
+section .subtitulo{
+    font-weight: bold;
+}
+
+section {
     margin: 2px 1px 1.5px;
     margin-top: 0.8rem;
     border: 0.2pt dashed #827d7d;
-    padding: 2% 1.2%;   
-    box-shadow: 
-   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-   rgba(0, 0, 0, 0.12) 0px 4px 6px,
-   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-   rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+  }
+  
+  #informacion-personal, #educacion, #cursos {
+    flex: 1;
+  }
+  
+
+  .container2 {
+    display: flex;
+  }
+  
+  #contacto, #mapaTrabajo {
+    flex: 1;
   }
 
+  img {
+    display: block;
+    margin: auto;
+    width: 550px;
+    height: auto; 
+  }
+
+  .media {
+    display: flex;
+  }
+  .videoProyecto2 {
+    width: 50%;
+  }
+  .imagenProyecto2 {
+    width: 50%;
+  }

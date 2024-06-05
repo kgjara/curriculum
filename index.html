@@ -5,104 +5,168 @@
     <meta charset="UTF-8">
     <title>Currículum Vitae</title>
     <link rel="stylesheet" href="stylesheets/style.css">
+    <meta name="keywords" content="CV, Ingeniero de computacion, Computacion, Ingenieria">
+    <meta name="description" content="CV de Kenny Jara">
+    <meta name="author" content="Kenny Jara">
 </head>
 
 <body>
     <header>
         <h1>Currículum Vitae</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Educación</a></li>
-            <li><a href="#">Experiencia</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <section id="informacion-personal">
-        <h2 class="titulo">Información personal</h2>
-        <p>
-            Nombre: <span>Kenny Jara</span>
-        </p>
-        <p>
-            Dirección: <span>Ecuador, Guayaquil</span>
-        </p>
-        <p>
-            Correo electrónico: <span>kenny199818@hotmail.com</span>
-        </p>
+    <section id="navegacion">
+        <nav>
+            <ul>
+                <li><a href="#navegacion">Inicio</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#proyecto">Proyectos</a></li>
+                <li><a href="#mapaTrabajo">Mapa</a></li>
+            </ul>
+        </nav>
     </section>
-    <section id="educacion">
-        <h2 class="titulo">Educación</h2>
-        <p>
-            Grado: <span>Estudiante Ing. en Ciencias Computacionales</span>
-        </p>
-        <p>
-            Institución: <span>Escuela Superior Politcnica del Litoral</span>
-        </p>
-        <p>
-            Fechas: <span>2018 - Actualidad</span>
-        </p>
-    </section>
-    <section id="experiencia">
-        <h2 class="titulo">Experiencia</h2>
-        </p>
-        <p>
-            Ninguna
-        </p>
-        <p>
-        <h2>Descripción:</h2>
-        <ul>
-            <li>Desarrollo de aplicaciones web</li>
-            <li>Mantenimiento de sistemas</li>
-            <li>Trabajo en equipo</li>
-        </ul>
-        </p>
-    </section>
+    <div class="container">
+        <section id="informacion-personal">
+            <h2 class="titulo">Información personal</h2>
+            <p>
+                Nombre: <span>Kenny Jara</span>
+            </p>
+            <p>
+                Dirección: <span>Ecuador, Guayaquil</span>
+            </p>
+            <p>
+                Correo electrónico: <span>kenny199818@hotmail.com</span>
+            </p>
+            <p>
+                LinkedIn: <a href="https://www.linkedin.com/in/kenny-jara-83b610113">Perfil de LinkedIn</a>
+            </p>
+        </section>
+        <section id="educacion">
+            <h2 class="titulo">Educación</h2>
+            <p>
+                Grado: <span>Estudiante Ing. en Ciencias Computacionales</span>
+            </p>
+            <p>
+                Institución: <span>Escuela Superior Politcnica del Litoral</span>
+            </p>
+            <p>
+                Fechas: <span>2018 - Actualidad</span>
+            </p>
+        </section>
+        <section id="cursos">
+            <h2 class="titulo">Cursos</h2>
+            <p>
+                IT Essentials: PC Hardware and Software
+            </p>
+            <p>Descripción: <span> CISCO
+                    27 Jun - 23 Aug 2020</span>
+            </p>
+        </section>
+    </div>
     <section id="habilidades">
         <h2 class="titulo">Habilidades</h2>
         <ul>
-            <li>Lenguajes de programación: Python, JavaScript, Java</li>
-            <li>Bases de datos: MySQL</li>
-            <li>Herramientas de desarrollo: Visual Studio Code, Git</li>
-            <li>Otros: Inglés</li>
+            <li>Herramientas de desarrollo: Visual Studio Code, Git, Netbeans</li>
+            <li>Idiomas: Español, Inglés</li>
         </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Java</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Bajo</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Bajo</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Bajo</td>
+                </tr>
+                <!-- Agrega más habilidades según sea necesario -->
+            </tbody>
+        </table>
+
     </section>
-    <section id="contacto">
-        <h2 class="titulo">Contacto</h2>
-        <form>
-            <label for="fname">Full Name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>  
-            <label for="mensaje">Mensaje: </label><br>
-            <textarea name="mensaje" id="mensaje"></textarea>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
+
     <section id="proyecto">
         <h2 class="titulo">Proyectos</h2>
         <ul>
-            <li><h3>Proyecto 1</h3></li>
+            <li>
+                <h3 class="subtitulo">Proyecto 1</h3>
+            </li>
             <h4>Descripción</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel metus sem. Donec elementum est eget sapien volutpat, vitae imperdiet neque rutrum. Etiam malesuada eleifend lobortis. Nulla dignissim velit gravida ante iaculis, eu semper mi gravida. Donec quis felis non enim gravida sollicitudin. Aliquam lacus orci, laoreet vel risus in.
+                Este proyecto es una aplicación gráfica hecha con javaFX que permite construir emojis de manera
+                interactiva, a partir de imágenes que se utilizarán para componer los emojis. En gran parte, la
+                funcionalidad está inspirada en aplicaciones como Fluent Emoji Maker (https://fluent- emoji.ddiu.io) o
+                Emoji Maker (https://emoji-maker.com/designer).
             </p>
-            <img src="https://placehold.co/600x400" alt="imagenProyecto">
-            <li><h3>Proyecto 2</h3></li>
+            <img src="./stylesheets/media/proyecto1.png" alt="imagenProyecto1">
+            <li>
+                <h3 class="subtitulo">Proyecto 2</h3>
+            </li>
             <h4>Descripción</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel metus sem. Donec elementum est eget sapien volutpat, vitae imperdiet neque rutrum. Etiam malesuada eleifend lobortis. Nulla dignissim velit gravida ante iaculis, eu semper mi gravida. Donec quis felis non enim gravida sollicitudin. Aliquam lacus orci, laoreet vel risus in.
+                Esta aplicación permite a los usuarios interactuar con un diccionario de palabras utilizando una
+                estructura de árbol llamada Trie. Un árbol Trie (también conocido como árbol prefijo) es una estructura
+                de datos jerárquica utilizada principalmente para almacenar y buscar palabras o cadenas de caracteres.
+                En un árbol Trie, cada nodo representa una letra y cada camino desde la raíz hasta un nodo hoja forma
+                una palabra. Las palabras se almacenan de manera que los caracteres comunes en la parte superior del
+                árbol se comparten entre múltiples palabras, lo que reduce significativamente el espacio de
+                almacenamiento requerido. Para mayor entendimiento de un árbol Trie, puede ver el siguiente video:
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RPLrKKgnabc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="media">
+                <div class="videoProyecto2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rQi8ouZxQM8" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="imagenProyecto2">
+                    <img src="./stylesheets/media/proyecto2.png" alt="imagenProyecto2">
+                </div>
+            </div>
         </ul>
     </section>
-    <section id="mapaTrabajo">
-        <h2 class="titulo">Lugar de Trabajo</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.906412281487!2d-79.9126012!3d-2.0949478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d131c5a55f2c9%3A0xb686106545de2043!2sMall%20del%20Norte!5e0!3m2!1ses!2sec!4v1622743752717!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="container2">
+        <section id="contacto">
+            <h2 class="titulo">Contacto</h2>
+            <form>
+                <label for="fname">Full Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="mensaje">Mensaje: </label><br>
+                <textarea name="mensaje" id="mensaje"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
 
-    </section>
+        <section id="mapaTrabajo">
+            <h2 class="titulo">Lugar de Trabajo</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.906412281487!2d-79.9126012!3d-2.0949478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d131c5a55f2c9%3A0xb686106545de2043!2sMall%20del%20Norte!5e0!3m2!1ses!2sec!4v1622743752717!5m2!1ses!2sec"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </section>
+    </div>
     <footer>
         <p>Copyright © 2024 Kenny Jara</p>
     </footer>
